@@ -15,4 +15,4 @@ Button.propTypes = {
     color: PropTypes.string,
 }
 
-export default Button
+export default Button;
