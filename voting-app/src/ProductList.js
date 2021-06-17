@@ -27,7 +27,7 @@ const products = [
     votes: 20,
     url: '#',
     imageurl: 'https://images.unsplash.com/photo-1623194279582-247ed47977b1?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3fGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60',
-    avatarurl: 'https://image.freepik.com/free-photo/medium-shot-happy-man-smiling_23-2148221808.jpg',
+    avatarurl: 'https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_1280.png',
   },
   {
     id: 4,
@@ -46,9 +46,7 @@ const ProductList = (props) => {
     b.votes - a.votes
   ));
 
-  const handleProductUpVote = (productId) => {
-    console.log(productId + 'was upvoted');
-  }
+  
 
   return sorted_products.map((product) => (
           <div>
@@ -61,7 +59,6 @@ const ProductList = (props) => {
               vote={product.votes}
               imageurl={product.imageurl}
               avatarurl={product.avatarurl}
-              handleProductUpVote={handleProductUpVote(product.id)}
             />
           </div>
   ));

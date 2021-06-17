@@ -1,21 +1,23 @@
 import React from 'react';
 import { Icon, Image, Item } from 'semantic-ui-react';
 
-const Product = (props) => {
+const Product = ({ imageurl, vote, title, description, avatarurl }) => {
+        
     return (
         <Item.Group>
             <Item>
-            <Item.Image size="tiny" src={props.imageurl} />
+            <Item.Image size="tiny" src={imageurl} />
             
             <Item.Content>
-                <Item.Header as='a'>
-                    <Icon name="angle up"></Icon><a>{props.vote}</a>
+                <Item.Header>
+                    <Icon name="angle up" >
+                    </Icon><a>{vote}</a>
                 </Item.Header>
                 <Item.Description>
-                    <h3>{props.title}</h3>
-                    <p>{props.description}</p>
+                    <h3>{title}</h3>
+                    <p>{description}</p>
                     <span>Submitted by:</span>
-                    <Image avatar src={props.avatarurl}  wrapped />            
+                    <Image avatar src={avatarurl}  wrapped />            
                 </Item.Description>
             </Item.Content>
             </Item>  
