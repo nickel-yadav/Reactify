@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 import Loading from './components/Loading';
 import Tours from './components/Tours';
@@ -11,8 +11,14 @@ function App() {
 
   const fetchTours = async () =>  {
     setLoading(true);
-    const response = await fetch(url)
+    const response = await fetch(url);
+    const tours = await response.json();
+    console.log(tours);
   }  
+  
+  useEffect(() => {
+    fetchTours();
+  }, []);
 
   if (loading) {
     return (
