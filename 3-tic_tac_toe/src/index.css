@@ -1,0 +1,39 @@
+.app { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45em; 
+    height: 40em;
+    border: 1px solid black;
+}
+
+.board {
+    width: 15em;
+    height: 15em;
+    position: relative; 
+    top: 15%;
+    left: 11%;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.square {
+    border: 1px solid black; 
+    width: 5em; 
+    height: 5em;
+    font-size: medium;
+}
+
+.game {
+    width: 20em; 
+    height: 25em;
+    position: relative;
+    top: 20%;
+    left: 25%;
+    border: 1px solid black; 
+}
