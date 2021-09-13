@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nickel-yadav/Reactify/1-birthday-reminder/static/css/main.118a02ac.chunk.css",
+    "main.js": "/nickel-yadav/Reactify/1-birthday-reminder/static/js/main.ed131fbf.chunk.js",
+    "main.js.map": "/nickel-yadav/Reactify/1-birthday-reminder/static/js/main.ed131fbf.chunk.js.map",
+    "runtime-main.js": "/nickel-yadav/Reactify/1-birthday-reminder/static/js/runtime-main.59cd85ce.js",
+    "runtime-main.js.map": "/nickel-yadav/Reactify/1-birthday-reminder/static/js/runtime-main.59cd85ce.js.map",
+    "static/js/2.6f920854.chunk.js": "/nickel-yadav/Reactify/1-birthday-reminder/static/js/2.6f920854.chunk.js",
+    "static/js/2.6f920854.chunk.js.map": "/nickel-yadav/Reactify/1-birthday-reminder/static/js/2.6f920854.chunk.js.map",
+    "static/js/3.629f5e6d.chunk.js": "/nickel-yadav/Reactify/1-birthday-reminder/static/js/3.629f5e6d.chunk.js",
+    "static/js/3.629f5e6d.chunk.js.map": "/nickel-yadav/Reactify/1-birthday-reminder/static/js/3.629f5e6d.chunk.js.map",
+    "index.html": "/nickel-yadav/Reactify/1-birthday-reminder/index.html",
+    "static/css/main.118a02ac.chunk.css.map": "/nickel-yadav/Reactify/1-birthday-reminder/static/css/main.118a02ac.chunk.css.map",
+    "static/js/2.6f920854.chunk.js.LICENSE.txt": "/nickel-yadav/Reactify/1-birthday-reminder/static/js/2.6f920854.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59cd85ce.js",
+    "static/js/2.6f920854.chunk.js",
+    "static/css/main.118a02ac.chunk.css",
+    "static/js/main.ed131fbf.chunk.js"
+  ]
+}
