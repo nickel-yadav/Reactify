@@ -6,7 +6,11 @@ const Game = () => {
     const status = 'New Player'; 
     return (
         <div className="game">
-            <div className="title">{status}</div>        
+            <div className="title">{status}</div>  
+            <div className="moves">
+              <div className="move">X</div>
+              <div className="move">O</div>
+            </div>      
             <div className="board"> 
                 <Board />
             </div>
